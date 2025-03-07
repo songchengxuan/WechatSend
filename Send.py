@@ -12,7 +12,7 @@ import hashlib
 # 文本类型消息
 def send_msg_txt(text):
     headers = {"Content-Type": "text/plain"}
-    send_url = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b9a598ad-bf83-47e3-aaa5-3062fbb1aed1"
+    send_url = "xxx"
     send_data = {
         "msgtype": "text",  # 消息类型，此时固定为text
         "text": {
