@@ -17,10 +17,10 @@ from ConfigRead import configRead_corr_days, configRead_sql
 # 连接数据库
 def gp_connect():
     try:
-        db = psycopg2.connect(dbname="hodo_dw",
-                              user="etl",
-                              password="Asd123123`",
-                              host="10.10.67.160",
+        db = psycopg2.connect(dbname="xxx",
+                              user="xxx",
+                              password="xxxxx",
+                              host="xxxx",
                               port="5432")
         # connect()也可以使用一个大的字符串参数,
         # 比如”host=localhost port=5432 user=postgres password=postgres dbname=test”
