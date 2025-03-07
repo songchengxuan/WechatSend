@@ -2,7 +2,7 @@
     function: 发送保存好的图像到微信窗口
     author: SongChengXuan
     create time: 2022-09-02
-    wechat address：https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b9a598ad-bf83-47e3-aaa5-3062fbb1aed1
+    wechat address：xxx
 '''
 import requests
 import base64
