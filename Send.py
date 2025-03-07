@@ -36,7 +36,7 @@ def send_image_message(picpath):
         md.update(f.read())
         image_md5 = md.hexdigest()
     # 企业微信机器人发送图片消息
-    url = 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=b9a598ad-bf83-47e3-aaa5-3062fbb1aed1'
+    url = 'xxx'
     headers = {"Content-Type":'application/json'}
     data = {
         'msgtype': 'image',
